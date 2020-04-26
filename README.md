@@ -2,7 +2,7 @@
 
 **Más usados**
 1. git pull (bajar los cambios)
-2. [git add .][git add -A] (agregar todos los cambios)
+2. [git add .] ó [git add -A] (agregar todos los cambios)
 3. git commit -m 'Mensaje' (descripción de los cambios que creamos)
 4. git push (subir los cambios)
 5. git status (ver el estado de los cambios)
