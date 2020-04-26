@@ -8,6 +8,13 @@
 5. git status (ver el estado de los cambios)
 6. git checkout nombre_rama (cambiarse de rama)
 
+**Otros comandos**
+1. git init (inicializar un repositorio)
+2. git config user.email = "" (agregar tu correo al repositorio)
+3. git config user.name = "" (agregar tu usuario al repositorio)
+4. git clone [link] (clonar el proyecto)
+5. git brach -a (mostrar todas las ramas locales)
+
 ---
 
 ## Mercurial
