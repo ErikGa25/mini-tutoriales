@@ -1,16 +1,18 @@
 ## Git
 
+**Más usados**
 1. git pull (bajar los cambios)
-2. git add . (agregar los cambios)
+2. [git add .][git add -A] (agregar todos los cambios)
 3. git commit -m 'Mensaje' (descripción de los cambios que creamos)
 4. git push (subir los cambios)
 5. git status (ver el estado de los cambios)
+6. git checkout nombre_rama (cambiarse de rama)
 
 ---
 
 ## Mercurial
 
-**Mas usados**
+**Más usados**
 1. hg pull (bajar los cambios)
 2. hg update (agregar los cambios bajados)
 3. hg addremove (solo si creamos algún archivo)
