@@ -14,7 +14,7 @@
 3. git [--global] config user.name = "" (agregar tu usuario al repositorio)
 4. git clone [link] (clonar el proyecto)
 5. git brach -a (mostrar todas las ramas locales)
-6. git config--list (mostrar la configuración del repositorio)
+6. git config --list (mostrar la configuración del repositorio)
 
 ---
 
