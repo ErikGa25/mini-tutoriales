@@ -65,3 +65,17 @@ RewriteRule ^(.*)$ $1.php
 ```
 Options All -Indexes
 ```
+
+---
+
+**Configuración Personal de Visual Studio Code**
+```
+{
+    "editor.fontFamily": "'Courier New', monospace",
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "CodeSandbox"
+}
+```
