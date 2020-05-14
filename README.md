@@ -68,7 +68,7 @@ Options All -Indexes
 
 ---
 
-**Configuración Personal de Visual Studio Code**
+## Configuración Personal de Visual Studio Code
 ```
 {
     "editor.fontFamily": "'Courier New', monospace",
@@ -78,4 +78,14 @@ Options All -Indexes
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "CodeSandbox"
 }
+```
+**Mis extensiones de uso**
+```
+- Bracket Pair Colorizer
+- CodeSanbox Theme
+- Color Picker
+- Git History
+- GitLens -- Git supercharged
+- Live Sass Compiler
+- vscode-icons
 ```
