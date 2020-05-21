@@ -81,11 +81,13 @@ Options All -Indexes
 ```
 **Mis extensiones de uso**
 ```
+- Beautify
 - Bracket Pair Colorizer
 - CodeSanbox Theme
 - Color Picker
 - Git History
 - GitLens -- Git supercharged
+- Laravel Snippets
 - Live Sass Compiler
 - vscode-icons
 ```
