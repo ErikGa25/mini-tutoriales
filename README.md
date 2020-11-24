@@ -91,14 +91,17 @@ Options All -Indexes
 - Live Sass Compiler
 - vscode-icons
 ```
-**Configuración de Laravel en Linux (opcional)**
+
+---
+
+## Configuración de Laravel en Linux (opcional)
 ```
-sudo nano /etc/apache2/apache2.conf
+- sudo nano /etc/apache2/apache2.conf
 Modificar:
 <Directory /var/www/>
 	#AllowOverride None
         AllowOverride All
 </Directory>
-sudo a2enmod rewrite
-sudo service apache2 restart
+- sudo a2enmod rewrite
+- sudo service apache2 restart
 ```
