@@ -90,6 +90,9 @@ Options All -Indexes
 - Laravel Snippets
 - Live Sass Compiler
 - vscode-icons
+- Awesome Flutter Snippets
+- Dart
+- Flutter
 ```
 
 ---
