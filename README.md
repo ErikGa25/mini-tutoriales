@@ -97,7 +97,7 @@ Options All -Indexes
 
 ---
 
-## Configuración de Laravel en Linux (opcional)
+## Configuración apache (opcional)
 ```
 - sudo nano /etc/apache2/apache2.conf
 Modificar:
