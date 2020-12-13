@@ -96,6 +96,25 @@ Options All -Indexes
 ```
 
 ---
+## Instalación de LAMP en Ubuntu
+```
+- sudo apt install -y apache2 apache2-utils (para instalar apache)
+- sudo service apache2 status (verificamos que el proceso se este ejecutando)
+- sudo chown www-data:www-data /var/www/html/ -R (cambiamos el usuario del directorio html)
+- sudo apt install mariadb-server mariadb-client (instalamos mariadb)
+- sudo service mariadb status (verificamos que el proceso se este ejecutando)
+- sudo mysql_secure_installation (iniciamos la instalación segura)
+- sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php-common php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline php7.4-mbstring php7.4-curl (instalamos php)
+- sudo a2enmod php7.4 (habilitamos el modulo de php)
+- sudo service apache2 restart (reiniciamos el servidor)
+- sudo nano /var/www/html/info.php (escribimos la siguiente línea: <?php phpinfo(); ?>)
+- sudo apt install phpmyadmin (instalamos phpmyadmin)
+- sudo nano /etc/apache2/apache2.conf (hasta el final del archivo colocamos lo siguiente: Include /etc/phpmyadmin/apache.conf)
+- sudo mariadb -u root -p (entramos a la base de datos)
+- ALTER USER 'root'@'localhost' IDENTIFIED BY 'password'; (cambiamos el password)
+- FLUSH PRIVILEGES; (cargamos los valores de la BD)
+- sudo service apache2 restart (reiniciamos el servidor)
+```
 
 ## Configuración apache (opcional)
 ```
