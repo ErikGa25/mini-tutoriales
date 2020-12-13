@@ -114,7 +114,8 @@ Options All -Indexes
 - ALTER USER 'root'@'localhost' IDENTIFIED BY 'password'; (cambiamos el password)
 - FLUSH PRIVILEGES; (cargamos los valores de la BD)
 - sudo service apache2 restart (reiniciamos el servidor)
-***Opcional:***
+
+Opcional:
 - sudo systemctl disable apache2 (desactivamos el proceso)
 - sudo systemctl disable mariadb (desactivamos el proceso)
 ```
