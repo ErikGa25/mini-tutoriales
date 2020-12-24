@@ -96,12 +96,12 @@ Options All -Indexes
 ```
 
 ---
-## Instalación de LAMP en Ubuntu
+## Instalación local de LAMP en Ubuntu
 ```
 - sudo apt install -y apache2 apache2-utils (para instalar apache)
 - sudo service apache2 status (verificamos que el proceso se este ejecutando)
 - sudo chown www-data:www-data /var/www/html/ -R (cambiamos el usuario del directorio html)
-- sudo apt install mariadb-server mariadb-client (instalamos mariadb)
+- sudo apt install mysql-server mysql-client (instalamos mariadb)
 - sudo service mariadb status (verificamos que el proceso se este ejecutando)
 - sudo mysql_secure_installation (iniciamos la instalación segura)
 - sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php-common php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline php7.4-mbstring php7.4-curl (instalamos php)
@@ -110,8 +110,9 @@ Options All -Indexes
 - sudo nano /var/www/html/info.php (escribimos la siguiente línea: <?php phpinfo(); ?>)
 - sudo apt install phpmyadmin (instalamos phpmyadmin)
 - sudo nano /etc/apache2/apache2.conf (hasta el final del archivo colocamos lo siguiente: Include /etc/phpmyadmin/apache.conf)
-- sudo mariadb -u root -p (entramos a la base de datos)
-- ALTER USER 'root'@'localhost' IDENTIFIED BY 'password'; (cambiamos el password)
+- sudo mysql -u root -p (entramos a la base de datos)
+- CREATE USER 'user'@'localhost' IDENTIFIED BY 'password'; (creamos un usuario)
+- GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost'; (con esto tendra todos los privilegios)
 - FLUSH PRIVILEGES; (cargamos los valores de la BD)
 - sudo service apache2 restart (reiniciamos el servidor)
 
