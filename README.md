@@ -101,6 +101,7 @@ Options All -Indexes
 - sudo apt install -y apache2 apache2-utils (para instalar apache)
 - sudo service apache2 status (verificamos que el proceso se este ejecutando)
 - sudo chown www-data:www-data /var/www/html/ -R (cambiamos el usuario del directorio html)
+- sudo chmod -R 777 /var/www/html/ (le damos permisos al directorio)
 - sudo apt install mysql-server mysql-client (instalamos mariadb)
 - sudo service mariadb status (verificamos que el proceso se este ejecutando)
 - sudo mysql_secure_installation (iniciamos la instalación segura)
