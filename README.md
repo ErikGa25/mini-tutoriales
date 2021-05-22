@@ -73,10 +73,11 @@ Options All -Indexes
 {
     "editor.fontFamily": "'Courier New', monospace",
     "editor.wordWrap": "on",
-    "files.autoSave": "onFocusChange",
     "editor.fontSize": 16,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "CodeSandbox"
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#eba946",
+        "tab.unfocusedActiveBorder": "#000"
+    }
 }
 ```
 **Mis extensiones de uso**
