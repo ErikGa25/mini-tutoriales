@@ -43,31 +43,6 @@
 
 ---
 
-## Configuraciones para .htaccess
-
-**Quitar la extensión .html de la url**
-```
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html
-```
-
-**Quitar la extensión .php de la url**
-```
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php
-```
-
-**Denegar la vista de archivos de un directorio**
-```
-Options All -Indexes
-```
-
----
-
 ## Configuración Personal de Visual Studio Code
 ```
 {
@@ -123,14 +98,27 @@ Opcional:
 - sudo systemctl disable mariadb (desactivamos el proceso)
 ```
 
-## Configuración apache (opcional)
+---
+
+## Configuraciones para .htaccess
+
+**Quitar la extensión .html de la url**
 ```
-- sudo nano /etc/apache2/apache2.conf
-Modificar:
-<Directory /var/www/>
-	#AllowOverride None
-        AllowOverride All
-</Directory>
-- sudo a2enmod rewrite
-- sudo service apache2 restart
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+```
+
+**Quitar la extensión .php de la url**
+```
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+```
+
+**Denegar la vista de archivos de un directorio**
+```
+Options All -Indexes
 ```
