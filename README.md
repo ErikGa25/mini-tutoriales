@@ -1,65 +1,62 @@
 ## Git
 
 **Más usados**
-```
-1. git pull (bajar los cambios)
-2. [git add .] ó [git add -A] (agregar todos los cambios)
-3. git commit -m 'Mensaje' (descripción de los cambios que creamos)
-4. git push (subir los cambios)
-5. git status (ver el estado de los cambios)
-6. git checkout nombre_rama (cambiarse de rama)
-```
+
+- ``git pull`` (bajar los cambios)
+- [``git add .``] ó [``git add -A``] (agregar todos los cambios)
+- ``git commit -m 'Mensaje'`` (descripción de los cambios que creamos)
+- ``git push`` (subir los cambios)
+- ``git status`` (ver el estado de los cambios)
+- ``git checkout nombre_rama`` (cambiarse de rama)
+
 
 **Otros comandos**
-```
-1. git init (inicializar un repositorio)
-2. git config user.email "email@dom.com" (agregar tu correo al repositorio)
-3. git config user.name "User" (agregar tu usuario al repositorio)
-4. git clone [link] (clonar el proyecto)
-5. git branch -a (mostrar todas las ramas locales)
-6. git config --list (mostrar la configuración del repositorio)
-```
+
+- ``git init`` (inicializar un repositorio)
+- ``git config user.email "email@dom.com"`` (agregar tu correo al repositorio)
+- ``git config user.name "User"`` (agregar tu usuario al repositorio)
+- ``git clone [tu.repositorio]`` (clonar el proyecto)
+- ``git branch -a`` (mostrar todas las ramas locales)
+- ``git config --list`` (mostrar la configuración del repositorio)
+
 
 ---
 ## Comandos utiles en Linux
 
-```
-1. touch mi_archivo.txt (podemos crear nuevos archivos)
-2. ls (listar los archivos y directorios de la carpeta actual)
-3. ls -a (listar los archivos y directorios ocultos de la carpeta actual)
-4. ls -l (listar los archivos y directorios de la carpeta actual y mostrar su información detallada)
-5. pwd (mostrar la ruta del directorio actual)
-6. mv mi_archivo.txt ./mi_carpeta/mi_archivo.txt (cambiar archivos de ubicación)
-7. mv mi_archivo.txt usuarios.txt (sirve para renombrar archivos)
-8. cp usuarios.txt usuarios_copia.txt (copiamos archivos)
-9. cp -r cursos/ cursos_copia/ (copiar directorios)
-10. cat notas.txt (leer el contenido de un archivo)
-11. uname -a (muestra información del equipo)
-12. lsb_release -a (muestra información del equipo | solo para distribuciones basadas en debian)
-13. grep -i búsqueda archivo (buscar palabra en archivo | no distingue mayúsculas y minúsculas)
-14. grep -c búsqueda archivo (número de veces que aparece una palabra en un archivo)
-15. grep búsqueda1 archivo | grep búsqueda2 archivo (buscar múltiples palabras en archivo)
-```
+1. ``touch mi_archivo.txt`` (podemos crear nuevos archivos)
+2. ``ls`` (listar los archivos y directorios de la carpeta actual)
+3. ``ls -a`` (listar los archivos y directorios ocultos de la carpeta actual)
+4. ``ls -l`` (listar los archivos y directorios de la carpeta actual y mostrar su información detallada)
+5. ``pwd`` (mostrar la ruta del directorio actual)
+6. ``mv mi_archivo.txt ./mi_carpeta/mi_archivo.txt`` (cambiar archivos de ubicación)
+7. ``mv mi_archivo.txt usuarios.txt`` (sirve para renombrar archivos)
+8. ``cp usuarios.txt usuarios_copia.txt`` (copiamos archivos)
+9. ``cp -r cursos/ cursos_copia/`` (copiar directorios)
+10. ``cat notas.txt`` (leer el contenido de un archivo)
+11. ``uname -a`` (muestra información del equipo)
+12. ``lsb_release -a`` (muestra información del equipo | solo para distribuciones basadas en debian)
+13. ``grep -i búsqueda archivo`` (buscar palabra en archivo | no distingue mayúsculas y minúsculas)
+14. ``grep -c búsqueda archivo`` (número de veces que aparece una palabra en un archivo)
+15. ``grep búsqueda1 archivo | grep búsqueda2 archivo`` (buscar múltiples palabras en archivo)
+
 ---
 
 ## Mercurial
 
 **Más usados**
-```
-1. hg pull (bajar los cambios)
-2. hg update (agregar los cambios bajados)
-3. hg addremove (solo si creamos algún archivo)
-4. hg commit -m 'Mensaje' -u usuario (descripción de los cambios que creamos)
-5. hg push (subir los cambios)
-6. hg status (ver el estado de los cambios)
-```
+
+- ``hg pull`` (bajar los cambios)
+- ``hg update`` (agregar los cambios bajados)
+- ``hg addremove`` (solo si creamos algún archivo)
+- ``hg commit -m 'Mensaje' -u usuario`` (descripción de los cambios que creamos)
+- ``hg push`` (subir los cambios)
+- ``hg status`` (ver el estado de los cambios)
 
 **Otros comandos**
-```
-1. hg log -l 4 -b default -G (ver los últimos commits creados)
-2. hg up nombre_rama (cambiarse de rama)
-3. hg graft 1024 (pasar un commit a otra rama)
-```
+
+- ``hg log -l 4 -b default -G`` (ver los últimos commits creados)
+- ``hg up nombre_rama`` (cambiarse de rama)
+- ``hg graft 1024`` (pasar un commit a otra rama)
 
 ---
 
