@@ -21,6 +21,26 @@
 ```
 
 ---
+## Comandos utiles en Linux
+
+```
+1. touch mi_archivo.txt (podemos crear nuevos archivos)
+2. ls (listar los archivos y directorios de la carpeta actual)
+3. ls -a (listar los archivos y directorios ocultos de la carpeta actual)
+4. ls -l (listar los archivos y directorios de la carpeta actual y mostrar su información detallada)
+5. pwd (mostrar la ruta del directorio actual)
+6. mv mi_archivo.txt ./mi_carpeta/mi_archivo.txt (cambiar archivos de ubicación)
+7. mv mi_archivo.txt usuarios.txt (sirve para renombrar archivos)
+8. cp usuarios.txt usuarios_copia.txt (copiamos archivos)
+9. cp -r cursos/ cursos_copia/ (copiar directorios)
+10. cat notas.txt (leer el contenido de un archivo)
+11. uname -a (muestra información del equipo)
+12. lsb_release -a (muestra información del equipo | solo para distribuciones basadas en debian)
+13. grep -i búsqueda archivo (buscar palabra en archivo | no distingue mayúsculas y minúsculas)
+14. grep -c búsqueda archivo (número de veces que aparece una palabra en un archivo)
+15. grep búsqueda1 archivo | grep búsqueda2 archivo (buscar múltiples palabras en archivo)
+```
+---
 
 ## Mercurial
 
@@ -57,6 +77,7 @@
 ```
 **Mis extensiones de uso**
 ```
+- Angular 8 and TypeScript/HTML VS Code Snippets
 - Beautify
 - Bracket Pair Colorizer
 - CodeSanbox Theme
