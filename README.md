@@ -2,22 +2,37 @@
 
 **Más usados**
 
+- ``git init`` (inicializar un repositorio)
 - ``git pull`` (bajar los cambios)
-- [``git add .``] ó [``git add -A``] (agregar todos los cambios)
+- ``git add .`` ó ``git add -A`` ó ``git add archivo.ext`` (agregar todos los cambios | agregar un archivo)
 - ``git commit -m 'Mensaje'`` (descripción de los cambios que creamos)
 - ``git push`` (subir los cambios)
 - ``git status`` (ver el estado de los cambios)
+- ``git log`` (ver todos los commits y su información)
+- ``git log --oneline`` (ver todos los commits resumidos)
+- ``git diff archivo.ext`` (ver modificaciones que se hicieron en algún archivo)
+- ``git diff [código del commit] [código del commit]`` (ver diferencias entre dos commits)
+- ``git branch`` (mostrar todas las ramas locales)
+- ``git branch nombre_rama`` (crear una nueva rama)
 - ``git checkout nombre_rama`` (cambiarse de rama)
 
 
 **Otros comandos**
 
-- ``git init`` (inicializar un repositorio)
 - ``git config user.email "email@dom.com"`` (agregar tu correo al repositorio)
 - ``git config user.name "User"`` (agregar tu usuario al repositorio)
 - ``git clone [tu.repositorio]`` (clonar el proyecto)
-- ``git branch -a`` (mostrar todas las ramas locales)
 - ``git config --list`` (mostrar la configuración del repositorio)
+- ``git commit --amend`` (cambiar la información del ultimo commit)
+- ``git checkout -- archivo.ext`` (deshacer los cambios de un archivo | antes del stage)
+- ``git reset HEAD`` (eliminar cambios de archivos hasta el ultimo commit conocido)
+- ``git reset [código del commit]`` (elimina un commit pero mantiene los cambios que tiene el archivo antes del stage | no recomendado)
+- ``git reset --soft [código del commit]`` (elimina un commit pero mantiene los cambios que tiene el archivo en el stage | no recomendado)
+- ``git reset --hard [código del commit]`` (elimina un commit y el cambio que se hizo el en archivo definitivamente | no recomendado)
+- ``git revert [código del commit]`` (elimina los cambios en el archivo y reemplaza el commit especificado)
+- ``git checkout -b nombre_rama`` (crear nueva rama y cambiarse a esta)
+- ``git branch -m nombre_rama_actual nuevo_nombre_rama`` (renombrar una rama)
+- ``git branch -d nombre_rama`` (eliminar una rama)
 
 
 ---
