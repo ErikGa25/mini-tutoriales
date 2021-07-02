@@ -33,6 +33,7 @@
 - ``git checkout -b nombre_rama`` (crear nueva rama y cambiarse a esta)
 - ``git branch -m nombre_rama_actual nuevo_nombre_rama`` (renombrar una rama)
 - ``git branch -d nombre_rama`` (eliminar una rama)
+- ``git push -f origin master`` (sobreescribir cambios en rama principal)
 
 
 ---
