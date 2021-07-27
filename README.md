@@ -97,6 +97,7 @@
 - Color Picker
 - Git History
 - GitLens -- Git supercharged
+- lit-plugin
 - Laravel Snippets
 - Live Sass Compiler
 - vscode-icons
@@ -112,8 +113,8 @@
 - sudo service apache2 status (verificamos que el proceso se este ejecutando)
 - sudo chown www-data:www-data /var/www/html/ -R (cambiamos el usuario del directorio html)
 - sudo chmod -R 777 /var/www/html/ (le damos permisos al directorio)
-- sudo apt install mysql-server mysql-client (instalamos mariadb)
-- sudo service mariadb status (verificamos que el proceso se este ejecutando)
+- sudo apt install mysql-server mysql-client (instalamos mysql)
+- sudo service mysql status (verificamos que el proceso se este ejecutando)
 - sudo mysql_secure_installation (iniciamos la instalación segura)
 - sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php-common php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline php7.4-mbstring php7.4-curl (instalamos php)
 - sudo a2enmod php7.4 (habilitamos el modulo de php)
@@ -129,7 +130,7 @@
 
 Opcional:
 - sudo systemctl disable apache2 (desactivamos el proceso)
-- sudo systemctl disable mariadb (desactivamos el proceso)
+- sudo systemctl disable mysql (desactivamos el proceso)
 ```
 
 ---
