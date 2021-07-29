@@ -93,7 +93,7 @@
 - Angular 8 and TypeScript/HTML VS Code Snippets
 - Beautify
 - Bracket Pair Colorizer
-- CodeSanbox Theme
+- CodeSandbox Theme
 - Color Picker
 - Git History
 - GitLens -- Git supercharged
