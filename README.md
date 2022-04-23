@@ -83,8 +83,13 @@
     "editor.wordWrap": "on",
     "editor.fontSize": 16,
     "workbench.colorCustomizations": {
-        "tab.activeBorder": "#eba946",
-        "tab.unfocusedActiveBorder": "#000"
+        "tab.activeBorder": "#eba946"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    "files.associations": {
+        "*.blade.php": "html",
+        "*.tpl": "html"
     }
 }
 ```
