@@ -92,9 +92,10 @@
         "*.tpl": "html"
     }
 }
-
+```
 ---
-## Instalación local de LAMP en Ubuntu
+
+### Instalación local de LAMP en Ubuntu
 ```
 - sudo apt install -y apache2 apache2-utils (para instalar apache)
 - sudo service apache2 status (verificamos que el proceso se este ejecutando)
