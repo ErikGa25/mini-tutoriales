@@ -92,24 +92,6 @@
         "*.tpl": "html"
     }
 }
-```
-**Mis extensiones de uso**
-```
-- Angular 8 and TypeScript/HTML VS Code Snippets
-- Beautify
-- Bracket Pair Colorizer
-- CodeSandbox Theme
-- Color Picker
-- Git History
-- GitLens -- Git supercharged
-- lit-plugin
-- Laravel Snippets
-- Live Sass Compiler
-- vscode-icons
-- Awesome Flutter Snippets
-- Dart
-- Flutter
-```
 
 ---
 ## Instalación local de LAMP en Ubuntu
